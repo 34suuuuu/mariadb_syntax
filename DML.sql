@@ -54,6 +54,8 @@ select * from post order by title, id desc;
 select * from author order by id desc limit 1;
 
 -- alias(별칭)을 이용한 select : as 키워드 사용
+select * from author as a;
+select * from author a;
 select name as 이름, email as 이메일 from author;
 select a.name as 이름, a.email as 이메일 from author as a;
 
