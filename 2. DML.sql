@@ -1,7 +1,7 @@
 -- insert into : 데이터 삽입
 insert into 테이블명(컬럼1, 컬럼2, 컬럼3) values (데이터1, 데이터2, 데이터3)
 
--- id, name, email -> author에 축가
+-- id, name, email -> author에 추가
 insert into author(id, name, email) values (1, 'hongildong', 'hong@naver.com');
 
 -- select : 데이터 조회
